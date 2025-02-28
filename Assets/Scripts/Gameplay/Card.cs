@@ -21,4 +21,9 @@ public class Card
         //  currently, I think the best way would be a system leveraging
         //  partial function application.
     }
+
+    // helper method for rendering with custom editor
+    public override string ToString() {
+        return name;
+    }
 }

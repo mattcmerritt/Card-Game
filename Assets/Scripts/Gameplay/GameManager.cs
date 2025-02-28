@@ -13,8 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Stack<Card> discardPile;
 
     // configuring singleton instance at earliest point
-    private void Awake()
-    {
+    private void Awake() {
         instance = this;
     }
 
@@ -28,5 +27,14 @@ public class GameManager : MonoBehaviour
         // generate the stacks to play the game
         drawPile = new Stack<Card>(shuffledDeck);
         discardPile = new Stack<Card>();
+    }
+
+    // helper method to return copies of the stacks for usage in the editor
+    public (Stack<Card>, Stack<Card>) GetStackCopies() {
+        // NOTE: the copies of cards are shallow, but the stacks are separate
+        return (
+            drawPile == null ? null : new Stack<Card>(drawPile), 
+            discardPile == null ? null : new Stack<Card>(discardPile)
+        );
     }
 }
