@@ -10,6 +10,10 @@ public class GameManagerEditor : UnityEditor.Editor
     private bool showDiscardPile = false;
     private bool showFullDiscardPile = false;
 
+    public override bool RequiresConstantRepaint() {
+        return true;
+    }
+
     public override void OnInspectorGUI() {
         base.OnInspectorGUI();
 

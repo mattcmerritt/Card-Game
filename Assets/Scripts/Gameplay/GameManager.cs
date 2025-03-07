@@ -54,8 +54,8 @@ public class GameManager : MonoBehaviour
     public (Stack<Card>, Stack<Card>) GetStackCopies() {
         // NOTE: the copies of cards are shallow, but the stacks are separate
         return (
-            drawPile == null ? null : new Stack<Card>(drawPile), 
-            discardPile == null ? null : new Stack<Card>(discardPile)
+            drawPile == null ? null : new Stack<Card>(new Stack<Card>(drawPile)), 
+            discardPile == null ? null : new Stack<Card>(new Stack<Card>(discardPile))
         );
     }
 }
