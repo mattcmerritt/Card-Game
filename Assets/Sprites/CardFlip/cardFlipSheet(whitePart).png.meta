@@ -1,0 +1,657 @@
+fileFormatVersion: 2
+guid: 019450a0a4efba549ad6a4fbcc7b15ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1619250709089520262
+    second: cardFlipSheet(whitePart)_0
+  - first:
+      213: -6309510827977877038
+    second: cardFlipSheet(whitePart)_1
+  - first:
+      213: -1166951132167075074
+    second: cardFlipSheet(whitePart)_2
+  - first:
+      213: -2601021564001649146
+    second: cardFlipSheet(whitePart)_3
+  - first:
+      213: 5783476898258840431
+    second: cardFlipSheet(whitePart)_4
+  - first:
+      213: -6656933288544875097
+    second: cardFlipSheet(whitePart)_5
+  - first:
+      213: 8266777210288010743
+    second: cardFlipSheet(whitePart)_6
+  - first:
+      213: 1280226330315100821
+    second: cardFlipSheet(whitePart)_7
+  - first:
+      213: 5411176443268522187
+    second: cardFlipSheet(whitePart)_8
+  - first:
+      213: 2662238652610550108
+    second: cardFlipSheet(whitePart)_9
+  - first:
+      213: 2674568945396631188
+    second: cardFlipSheet(whitePart)_10
+  - first:
+      213: 2180790699560384222
+    second: cardFlipSheet(whitePart)_11
+  - first:
+      213: -3192038179010322133
+    second: cardFlipSheet(whitePart)_12
+  - first:
+      213: -7851395181952248775
+    second: cardFlipSheet(whitePart)_13
+  - first:
+      213: 2882202511656511346
+    second: cardFlipSheet(whitePart)_14
+  - first:
+      213: 2276747075555764029
+    second: cardFlipSheet(whitePart)_15
+  - first:
+      213: 6748467059785485510
+    second: cardFlipSheet(whitePart)_16
+  - first:
+      213: -6707565824879999980
+    second: cardFlipSheet(whitePart)_17
+  - first:
+      213: 6138210873617366914
+    second: cardFlipSheet(whitePart)_18
+  - first:
+      213: 9222000291756907865
+    second: cardFlipSheet(whitePart)_19
+  - first:
+      213: -1991067955775314545
+    second: cardFlipSheet(whitePart)_20
+  - first:
+      213: -2008172553162143492
+    second: cardFlipSheet(whitePart)_21
+  - first:
+      213: -5172643932377419283
+    second: cardFlipSheet(whitePart)_22
+  - first:
+      213: -2027029959970040575
+    second: cardFlipSheet(whitePart)_23
+  - first:
+      213: -5478717447206321853
+    second: cardFlipSheet(whitePart)_24
+  - first:
+      213: 6620723984036205556
+    second: cardFlipSheet(whitePart)_25
+  - first:
+      213: -2433431296846373374
+    second: cardFlipSheet(whitePart)_26
+  - first:
+      213: 8066007469824591653
+    second: cardFlipSheet(whitePart)_27
+  - first:
+      213: 7972522562757328634
+    second: cardFlipSheet(whitePart)_28
+  - first:
+      213: -3245288120603613990
+    second: cardFlipSheet(whitePart)_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2700
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91481bfa906f76940a10511520c09863
+      internalID: 1031415758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2700
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f928c7d58a40646b36e89e431ada2d
+      internalID: -1863403138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2700
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb914f637c04d245b983c4d7a958d46
+      internalID: -1670421416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2700
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0b5330a02ee0848b37a3ad12861507
+      internalID: 2119824469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2700
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c4bf040853b974fba01f8576af61e3
+      internalID: -1481314845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fe09cbe55b93e40b14b396579fd7d1
+      internalID: -1824886632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1800
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd669be1d4b7c840a6f4a654584b243
+      internalID: 757346977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_7
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1800
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8492217951578745a3f5950f44528f1
+      internalID: 1826108955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_8
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1800
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887e47b79f5b38e45ad8643f45c64a79
+      internalID: -1885888564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_9
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1800
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48c9ce5f1ad6fd4487115dc59aea5f8
+      internalID: -987614191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462f1b169c137194a852f6cbb2b211e2
+      internalID: 748235068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b626cf59257fe44696cffca796416b1
+      internalID: -1923681579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 900
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0813145b0b09447b77e4714208d9d2
+      internalID: -1210491843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_13
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 900
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1926ec0902aa8b24ea33e1929e0a9e59
+      internalID: -1811927326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 900
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487fcc18ece46614dbdded769718c85c
+      internalID: -1101844038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6606db33fd0288e4c97517726e05e2b5
+      internalID: 1979318219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02433d1e5ae1bb84ead7cd471db8c432
+      internalID: 379015410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_17
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5389b771f966743b8fa55f159a649a
+      internalID: -461068887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cardFlipSheet(whitePart)_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 600
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2d47c45de9b9041a244137ec595c77
+      internalID: 1066413905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5497487fe647eb94da7a442021bd02c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cardFlipSheet(whitePart)_0: 1031415758
+      cardFlipSheet(whitePart)_1: -1863403138
+      cardFlipSheet(whitePart)_10: 748235068
+      cardFlipSheet(whitePart)_11: -1923681579
+      cardFlipSheet(whitePart)_12: -1210491843
+      cardFlipSheet(whitePart)_13: -1811927326
+      cardFlipSheet(whitePart)_14: -1101844038
+      cardFlipSheet(whitePart)_15: 1979318219
+      cardFlipSheet(whitePart)_16: 379015410
+      cardFlipSheet(whitePart)_17: -461068887
+      cardFlipSheet(whitePart)_18: 1066413905
+      cardFlipSheet(whitePart)_2: -1670421416
+      cardFlipSheet(whitePart)_3: 2119824469
+      cardFlipSheet(whitePart)_4: -1481314845
+      cardFlipSheet(whitePart)_5: -1824886632
+      cardFlipSheet(whitePart)_6: 757346977
+      cardFlipSheet(whitePart)_7: 1826108955
+      cardFlipSheet(whitePart)_8: -1885888564
+      cardFlipSheet(whitePart)_9: -987614191
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
