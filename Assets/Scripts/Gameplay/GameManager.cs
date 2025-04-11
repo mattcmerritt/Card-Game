@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 
     // game configuration
     [SerializeField] private int currentPlayerIndex;
-    [SerializeField] private int turnDirection;
+    [SerializeField] private int turnDirection = 1;
     [SerializeField] private List<Player> playersToSkip;
     [SerializeField] private List<Player> currentPlayers;
     [SerializeField] private Deck deck;
@@ -24,13 +24,59 @@ public class GameManager : MonoBehaviour
     private void Start() {
         // generate the deck of cards, and shuffle
         deck = new Deck();
-        deck.GenerateStandardPlayingCards();
+        deck.GenerateDefaultCards();
         List<Card> shuffledDeck = deck.GetShuffledDeck();
 
         // generate the stacks to play the game
         drawPile = new Stack<Card>(shuffledDeck);
         discardPile = new Stack<Card>();
+        playersToSkip = new List<Player>();
     }
+
+    // ------------------------------------------------------------
+    // Primary game flow functionality
+    //  Turns, order, etc.
+    // ------------------------------------------------------------
+    
+    // This function should exclusively be used for gathering input
+    private void Update() {
+        // TODO: replace with mouse inputs
+        // drawing a singular card
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            currentPlayers[currentPlayerIndex].DrawCard();
+            ProgressTurnOrder();
+        }
+        else {
+            // TODO: replace with mouse inputs
+            KeyCode[] keyCodes = new KeyCode[] { KeyCode.Alpha1, KeyCode.Alpha2, KeyCode.Alpha3, KeyCode.Alpha4, KeyCode.Alpha5, KeyCode.Alpha6, KeyCode.Alpha7, KeyCode.Alpha8, KeyCode.Alpha9, KeyCode.Alpha0 };
+            for (int i = 0; i < keyCodes.Length; i++) {
+                // TODO: implement a more robust turn system with more pauses for other types of cards
+                if (Input.GetKeyDown(keyCodes[i])) {
+                    if (currentPlayers[currentPlayerIndex].PlayCard(i)) {
+                        // TODO: this may need to be implemented with references if indexes cause issues
+                        currentPlayers[currentPlayerIndex].DiscardCard(i);
+                        ProgressTurnOrder();
+                    }
+                    
+                } 
+            }
+        }
+    }
+
+    private void ProgressTurnOrder() {
+        currentPlayerIndex = ((currentPlayerIndex + turnDirection) + currentPlayers.Count) % currentPlayers.Count;
+        
+        // if the player should be skipped, move on again
+        while (playersToSkip.Contains(currentPlayers[currentPlayerIndex])) {
+            playersToSkip.Remove(currentPlayers[currentPlayerIndex]);
+            currentPlayerIndex = ((currentPlayerIndex + turnDirection) + currentPlayers.Count) % currentPlayers.Count;
+        }
+    }
+
+    // ------------------------------------------------------------
+    // Functions designed for allowing other scripts to interact with game flow
+    //  For example, Cards and Players needing to draw cards
+    // ------------------------------------------------------------
 
     // retrieve the list of current players
     public List<Player> GetCurrentPlayerList() {
@@ -61,10 +107,10 @@ public class GameManager : MonoBehaviour
 
         Stack<Card> skippedCards = new Stack<Card>();
         Card drawn = null;
-        while ((drawn == null || drawn.cardType != targetType) && drawPile.Count > 0) {
+        while ((drawn == null || drawn.CardType != targetType) && drawPile.Count > 0) {
             drawPile.TryPop(out drawn);
 
-            if (drawn.cardType != targetType) {
+            if (drawn.CardType != targetType) {
                 skippedCards.Push(drawn);
             }
         }
@@ -75,7 +121,7 @@ public class GameManager : MonoBehaviour
         }
 
         // only way to achieve this is if there were no cards on the draw pile of the right type
-        if (drawn == null || drawn.cardType != targetType) {
+        if (drawn == null || drawn.CardType != targetType) {
             return null;
         }
         else {
@@ -93,7 +139,7 @@ public class GameManager : MonoBehaviour
 
     // mark a player to be skipped
     public void SkipPlayer(Player player) {
-        
+        playersToSkip.Add(player);
     }
 
     // helper method to return copies of the stacks for usage in the editor

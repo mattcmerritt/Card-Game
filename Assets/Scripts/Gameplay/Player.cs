@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 using System.Collections.Generic;
 
 public class Player : MonoBehaviour
@@ -7,8 +8,19 @@ public class Player : MonoBehaviour
     [SerializeField] private List<Card> hand;
 
     // generic behavior for playing a card
-    public void PlayCard() {
-        // TODO: reference the dec
+    public bool PlayCard(int index) {
+        // ensure the card exists
+        if (hand.Count < index)
+            return false;
+
+        // TODO: determine how to choose players to target, or if this can be handled later in the process
+        //  this should be done using a coroutine with a wait until condition
+        // for now, find all players and use the one that is not currently playing as target
+        Player[] playersInGame = GameObject.FindObjectsByType<Player>(FindObjectsSortMode.None);
+        Player other = Array.Find(playersInGame, (Player p) => p != this);
+
+        // otherwise return result of playing the card
+        return hand[index].AttemptPlayCard(this, other);
     }
 
     // method to draw card from draw pile
@@ -91,25 +103,6 @@ public class Player : MonoBehaviour
 
     // TODO: implement this in a different way to return all
     public int FindFirstCardOfType(string cardType) {
-        return hand.FindIndex((Card c) => c.cardType == cardType);
-    }
-
-    // debug only, used for testing
-    // TODO: remove / deactivate
-    void Update() {
-        // test draw
-        if(Input.GetKeyDown(KeyCode.Space)) {
-            DrawCard();
-        }
-
-        // test discard
-        if(Input.GetKeyDown(KeyCode.Alpha1)) {
-            DiscardCard(0);
-        }
-
-        // test discard, part 2
-        if(Input.GetKeyDown(KeyCode.Alpha2)) {
-            DiscardCard(1);
-        }
+        return hand.FindIndex((Card c) => c.CardType == cardType);
     }
 }
